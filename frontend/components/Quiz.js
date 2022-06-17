@@ -1,6 +1,11 @@
 import React from 'react'
+import { useEffect } from 'react'
 
 export default function Quiz(props) {
+  useEffect(()=> {
+    
+  }, [])
+
   return (
     <div id="wrapper">
       {

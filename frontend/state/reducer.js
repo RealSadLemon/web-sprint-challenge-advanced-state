@@ -18,7 +18,10 @@ function wheel(state = initialWheelState, action) {
 
 const initialQuizState = null
 function quiz(state = initialQuizState, action) {
-  return state
+  switch(action.type) {
+    default:
+      return state
+  }
 }
 
 const initialSelectedAnswerState = null
