@@ -23,7 +23,6 @@ export const resetStore = () => {
 resetStore()
 
 export default function App() {
-  console.log(store.getState())
   return (
     <Provider store={store}>
       <BrowserRouter>
